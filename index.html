@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="inicio">
+
+    <h1> Welcome to the pink productivity!</h1>
+    <img src="https://i.pinimg.com/736x/3d/98/a3/3d98a300b38289f8e7306a418d11ffc9.jpg" alt="cute cat">
+    <button id="start-btn">START</button>
+</div>
+
+
+
+
+    <div class="container">
+ <button id="back-btn">← Back</button>
+        <h1>To-do List</h1>
+        <h2>what do you want to do today?</h2>
+
+        <!-- INPUT -->
+        <div class="input-area">
+            <input type="text" id="taskinput" placeholder="write your task here">
+            <button id="add-task-btn">Add a task</button>
+        </div>
+
+        <!-- TOPO -->
+        <div class="top-section">
+
+            <div class="date-box">
+                <span id="weekday"></span>
+                <div id="day-number"></div>
+                <span id="month"></span>
+            </div>
+
+            <div class="progress-box">
+                <p>progression</p>
+                 
+                <div class="progress-bar">
+                    <div id="progress-fill"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- LISTA -->
+        <div class="task-box">
+            <ul id="tasklist"></ul>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
